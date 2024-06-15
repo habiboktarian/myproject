@@ -27,11 +27,10 @@
                     <!-- <img src="<?= base_url('images/logo.png'); ?>" class="brand-image"> -->
                     <span class="brand-text"><b>Habib Oktarian</b></span>
                 </a>
-
                 <div class="collapse navbar-collapse order-3" id="navbarCollapse">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Home</a>
+                            <a href="#" class="nav-link text-dark">Home</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">About Me</a>
@@ -44,16 +43,6 @@
                         </li>
                     </ul>
                 </div>
-
-                <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('login'); ?>">
-                            <i class="fas fa-user"></i>
-                            <!-- <i class="fas fa-sign-in-alt"></i> -->
-                        </a>
-                    </li>
-                </ul>
-
                 <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
